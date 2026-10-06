@@ -23,9 +23,6 @@ Erika Rossana Llanes Castro
 - VS Code con Extension Pack for Java
 
 ## Cómo ejecutar
-
-1. Coloca `mysql-connector-j-26.7.0.jar` dentro de `lib/`.
-2. Levanta MySQL con Docker:
-   ```bash
-   docker compose down -v
-   docker compose up -d
+Iniciar la Base de Datos (Docker):
+  ```bash
+   docker-compose up -d
