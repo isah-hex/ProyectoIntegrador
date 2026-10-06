@@ -27,6 +27,5 @@ Sistema en Java desarrollado para la administración de clientes, equipos, técn
 
 ## Cómo ejecutar el proyecto
 
-1. **Iniciar la base de datos (Docker):**
-   ```bash
-   docker-compose up -d
+* **Paso 1 (Base de Datos):** Abrir la terminal en la raíz del proyecto e iniciar Docker con el comando: `docker-compose up -d`
+* **Paso 2 (Aplicación):** Entrar a la carpeta `src/` y ejecutar la clase principal **`MenuPrincipal.java`**.
