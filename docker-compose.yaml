@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  base_datos:
+    image: mysql:8.0
+    container_name: mysql_proyectoDSB
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_clase
+      MYSQL_DATABASE: taller
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+      - ./sql/01_creacion_estructura.sql:/docker-entrypoint-initdb.d/01_init.sql
+      - ./sql/02_datos_prueba.sql:/docker-entrypoint-initdb.d/02_seed.sql

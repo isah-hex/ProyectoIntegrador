@@ -1,0 +1,75 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MenuPrincipal",
+            "request": "launch",
+            "mainClass": "MenuPrincipal",
+            "projectName": "proyecto-dsbd_2d184426"
+        },
+        {
+            "type": "java",
+            "name": "ConexionDB (test)",
+            "request": "launch",
+            "mainClass": "ConexionDB",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "MenuPrincipal",
+            "request": "launch",
+            "mainClass": "MenuPrincipal",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "FormularioCliente",
+            "request": "launch",
+            "mainClass": "FormularioCliente",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "FormularioEquipo",
+            "request": "launch",
+            "mainClass": "FormularioEquipo",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "FormularioTecnico",
+            "request": "launch",
+            "mainClass": "FormularioTecnico",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "FormularioOrden",
+            "request": "launch",
+            "mainClass": "FormularioOrden",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "FormularioPieza",
+            "request": "launch",
+            "mainClass": "FormularioPieza",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "FormularioPago",
+            "request": "launch",
+            "mainClass": "FormularioPago",
+            "projectName": "proyecto-dsbd"
+        },
+        {
+            "type": "java",
+            "name": "ConsultaCombinada",
+            "request": "launch",
+            "mainClass": "ConsultaCombinada",
+            "projectName": "proyecto-dsbd"
+        }
+    ]
+}
