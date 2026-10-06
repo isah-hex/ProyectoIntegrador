@@ -23,6 +23,10 @@ Erika Rossana Llanes Castro
 - VS Code con Extension Pack for Java
 
 ## Cómo ejecutar
-Iniciar la Base de Datos (Docker):
-  ```bash
+Sistema en Java desarrollado para la administración de clientes, equipos, técnicos, órdenes de servicio, refacciones y cobros, conectado a una base de datos MySQL en Docker.
+
+## Cómo ejecutar el proyecto
+
+1. **Iniciar la base de datos (Docker):**
+   ```bash
    docker-compose up -d
